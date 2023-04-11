@@ -38,6 +38,14 @@ namespace GestionClientsHotel
             numChambre= numeroDeChambre;
         }
 
-
+        public override string ToString()
+        {
+            return "~~~ CLIENT ~~~" + '\n' +
+                "NOM : " + Nom + '\n' +
+                "PRENOM : " + Prenom + '\n' +
+                "COURRIEL : " + Courriel + '\n' +
+                "CARTE : " + CarteCredit + '\n' +
+                "NUMERO CHAMBRE : " + numChambre;
+        }
     }
 }
