@@ -13,7 +13,7 @@ namespace GestionClientsHotel
         -- PROPRIÉTÉS ET ATTRIBUTS -- 
         */
         private string Nom { get; set; }
-        private char Prenom { get; set; }
+        private string Prenom { get; set; }
         private string Courriel { get; set; }
         private string  CarteCredit { get; set; }
         private int numChambre { get; set; }
@@ -29,7 +29,7 @@ namespace GestionClientsHotel
         /// <param name="courriel">L'adresse courriel du client.</param>
         /// <param name="carteDeCredit">La carte de crédit du client.</param>
         /// <param name="numeroDeChambre">Le numéro de chambre du client.</param>
-        public Client(string nom, char prenom, string courriel, string carteDeCredit, int numeroDeChambre)
+        public Client(string nom, string prenom, string courriel, string carteDeCredit, int numeroDeChambre)
         {
             Nom = nom;
             Prenom = prenom;
