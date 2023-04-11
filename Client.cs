@@ -40,12 +40,11 @@ namespace GestionClientsHotel
 
         public override string ToString()
         {
-            return "~~~ CLIENT ~~~" + '\n' +
-                "NOM : " + Nom + '\n' +
-                "PRENOM : " + Prenom + '\n' +
-                "COURRIEL : " + Courriel + '\n' +
-                "CARTE : " + CarteCredit + '\n' +
-                "NUMERO CHAMBRE : " + numChambre;
+            return "- Client "+Nom+", "+Prenom+" -"+'\n'+
+                "Courriel : "+Courriel+'\n'+
+                "Carte de credit : "+CarteCredit+'\n'+
+                "Numero de chambre : "+numChambre;
         }
+
     }
 }
