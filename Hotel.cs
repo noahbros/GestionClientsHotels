@@ -12,8 +12,14 @@ namespace GestionClientsHotel
         /*
          -- PROPRIÉTÉS ET ATTRIBUTS --
          */
-        public  List<Client> clients;
+        private  List<Client> clients;
         private string Nom { get; set; }
+
+
+        public List<Client> Clients
+        {
+            get { return clients; }
+        }
 
         /*
          -- CONSTRUCTEUR --
